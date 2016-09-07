@@ -3,7 +3,7 @@ package com.tiy.helloWorld;
 /**
  * Created by Brett on 8/29/16.
  */
-public class EnglishGreeting {
+public class EnglishGreeting implements HelloWorld{
 
 	String name = "world";
 	public void greet() {

@@ -13,12 +13,12 @@ public class HelloWorldRunner {
 
 	public void sayHello() {
 
-		EnglishGreeting myEngGreeting = new EnglishGreeting();
-		GermanGreeting myGerGreeting = new GermanGreeting();
-		SpanishGreeting mySpnGreeting = new SpanishGreeting();
-		myEngGreeting.greetSomeone(myEngGreeting.name);
+		HelloWorld myEngGreeting = new EnglishGreeting();
+		HelloWorld myGerGreeting = new GermanGreeting();
+		HelloWorld mySpnGreeting = new SpanishGreeting();
+		myEngGreeting.greet();
 		myGerGreeting.greetSomeone("Fred");
-		mySpnGreeting.greetSomeone(mySpnGreeting.name);
+		mySpnGreeting.greet();
 
 	}
 }
